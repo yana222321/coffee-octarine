@@ -1,0 +1,12 @@
+{
+  "title": "Octarine — кофейня восьмого цвета",
+  "language": "ru",
+  "description": "Кофейня Octarine — каталог, заказы, блог и аналитика.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
