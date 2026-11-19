@@ -182,7 +182,6 @@ export default function Landing({
               <br />
               чашки
             </h3>
-            <span className="counter">1</span>
             <p>Их сложно забыть и невозможно перепутать</p>
           </article>
           <article className="why-card bar-card">
@@ -197,7 +196,6 @@ export default function Landing({
               <br />
               зерно
             </h3>
-            <span className="counter">2</span>
             <p>Меняем лоты и настраиваем рецепт каждый день</p>
           </article>
           <article className="why-card vibe-card">
@@ -209,7 +207,6 @@ export default function Landing({
               <br />
               кофе
             </h3>
-            <span className="counter">3</span>
             <p>Никакого снобизма и сложных слов без объяснений</p>
           </article>
           <article className="why-card event-card">

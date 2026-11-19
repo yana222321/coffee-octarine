@@ -397,19 +397,6 @@ footer {
   text-transform: uppercase;
 }
 
-.counter {
-  position: absolute;
-  z-index: 3;
-  display: grid;
-  width: 20px;
-  height: 20px;
-  place-items: center;
-  border-radius: 50%;
-  background: var(--black);
-  color: white;
-  font-size: 11px;
-}
-
 .cutout,
 .balls-cutout {
   overflow: hidden;
@@ -438,10 +425,6 @@ footer {
 .table-card h3 {
   top: 27px;
   right: 4px;
-}
-.table-card .counter {
-  top: -17px;
-  right: 62px;
 }
 .table-card p {
   margin: 9px 0 0 14px;
@@ -477,10 +460,6 @@ footer {
   top: 112px;
   left: -18px;
 }
-.bar-card .counter {
-  top: 1px;
-  right: 40px;
-}
 .bar-card p {
   margin-top: 58px;
 }
@@ -499,10 +478,6 @@ footer {
 .vibe-card h3 {
   top: 4px;
   left: -43px;
-}
-.vibe-card .counter {
-  top: -30px;
-  left: 18px;
 }
 .vibe-card p {
   margin-top: 15px;
