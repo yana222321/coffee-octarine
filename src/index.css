@@ -59,21 +59,21 @@ footer {
 
 .mini-logo {
   display: flex;
-  width: 62px;
+  width: 78px;
   flex-direction: column;
   color: inherit;
-  font-size: 9px;
-  line-height: 0.92;
+  font-size: 12px;
+  line-height: 0.95;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 .mini-logo::after {
   position: absolute;
-  top: 15px;
-  left: 72px;
-  width: 27px;
-  height: 34px;
+  top: 17px;
+  left: 88px;
+  width: 30px;
+  height: 38px;
   border: 2px solid;
   border-radius: 50% 50% 45% 55%;
   content: "";
@@ -1001,6 +1001,16 @@ footer button {
 
   .top-book {
     padding: 6px 12px;
+  }
+  .mini-logo {
+    width: 68px;
+    font-size: 10px;
+  }
+  .mini-logo::after {
+    top: 14px;
+    left: 78px;
+    width: 26px;
+    height: 32px;
   }
   .hero {
     min-height: 500px;
