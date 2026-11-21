@@ -207,7 +207,7 @@ export default function Landing({
               <br />
               кофе
             </h3>
-            <p>Никакого снобизма и сложных слов без объяснений</p>
+            <p>Никакого снобизма и сложных слов</p>
           </article>
           <article className="why-card event-card">
             <div className="balls-cutout">
