@@ -593,7 +593,7 @@ footer {
 .event-list,
 .inline-book {
   position: relative;
-  z-index: 2;
+  z-index: 5;
 }
 
 .event-list {
@@ -720,6 +720,35 @@ footer {
   left: -32px;
   width: 220px;
   background: var(--pink);
+}
+
+.room-captions {
+  display: grid;
+  margin-top: 18px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.room-caption {
+  padding: 10px 12px;
+  background: var(--pink);
+}
+
+.room-caption:first-child {
+  background: var(--paper);
+}
+
+.room-caption h3 {
+  font-family: "Neucha", cursive;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.room-caption p {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.25;
 }
 
 footer {
@@ -1119,6 +1148,20 @@ footer button {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 260px);
+  }
+
+  .room-captions {
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
+    overflow-x: auto;
+    padding-bottom: 6px;
+  }
+
+  .room-caption h3 {
+    font-size: 20px;
+  }
+
+  .room-caption p {
+    font-size: 11px;
   }
 
   footer {

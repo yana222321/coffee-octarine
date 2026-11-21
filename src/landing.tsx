@@ -274,11 +274,21 @@ export default function Landing({
           {rooms.map((room) => (
             <article className={`room-card ${room.className}`} key={room.name}>
               <img src={room.image} alt="" />
-              <div>
-                <h3>{room.name}</h3>
-                <p>{room.note}</p>
-              </div>
+              {room.className === "room-main" && (
+                <div>
+                  <h3>{room.name}</h3>
+                  <p>{room.note}</p>
+                </div>
+              )}
             </article>
+          ))}
+        </div>
+        <div className="room-captions">
+          {[rooms[1], rooms[3], rooms[2]].map((room) => (
+            <div className="room-caption" key={room.name}>
+              <h3>{room.name}</h3>
+              <p>{room.note}</p>
+            </div>
           ))}
         </div>
         <footer>
